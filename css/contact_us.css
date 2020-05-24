@@ -1,0 +1,28 @@
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.form input,
+form textarea {
+  margin: 15px 0;
+}
+
+.submit {
+  width: 20%;
+  align-self: center;
+  background-color: #2D95BB;
+  border: 0;
+}
+
+.submit:hover {
+    background-color: #162B4D;
+}
